@@ -1,0 +1,25 @@
+Dataset,model_name,Domain,Dimension Reduction,Feature Extraction,Final Dimension,Accuracy Validation,Accuracy Test
+MotionSense,RandomForestClassifier,Time,12.0,,12,0.505,0.669
+MotionSense,SVC,Time,12.0,,12,0.5,0.673
+MotionSense,KNeighborsClassifier,Time,12.0,,12,0.493,0.671
+MotionSense,DecisionTreeClassifier,Time,12.0,,12,0.45,0.559
+MotionSense,RandomForestClassifier,Time,24.0,,24,0.493,0.659
+MotionSense,SVC,Time,24.0,,24,0.507,0.68
+MotionSense,KNeighborsClassifier,Time,24.0,,24,0.531,0.674
+MotionSense,DecisionTreeClassifier,Time,24.0,,24,0.421,0.58
+MotionSense,RandomForestClassifier,Time,,,360,0.771,0.886
+MotionSense,SVC,Time,,,360,0.698,0.767
+MotionSense,KNeighborsClassifier,Time,,,360,0.517,0.666
+MotionSense,DecisionTreeClassifier,Time,,,360,0.514,0.595
+MotionSense,RandomForestClassifier,Frequency,12.0,,12,0.821,0.903
+MotionSense,SVC,Frequency,12.0,,12,0.802,0.895
+MotionSense,KNeighborsClassifier,Frequency,12.0,,12,0.788,0.91
+MotionSense,DecisionTreeClassifier,Frequency,12.0,,12,0.771,0.879
+MotionSense,RandomForestClassifier,Frequency,24.0,,24,0.821,0.91
+MotionSense,SVC,Frequency,24.0,,24,0.798,0.894
+MotionSense,KNeighborsClassifier,Frequency,24.0,,24,0.788,0.904
+MotionSense,DecisionTreeClassifier,Frequency,24.0,,24,0.795,0.885
+MotionSense,RandomForestClassifier,Frequency,,,180,0.862,0.932
+MotionSense,SVC,Frequency,,,180,0.762,0.822
+MotionSense,KNeighborsClassifier,Frequency,,,180,0.81,0.91
+MotionSense,DecisionTreeClassifier,Frequency,,,180,0.669,0.811
