@@ -214,12 +214,12 @@ def compute_results():
             results["Accuracy Test"].append(acc_results["acc_test"][i])
             
     df_results = pd.DataFrame(results)
-    df_results.to_csv("../results/results.csv", index=False)
+    df_results.to_csv("results/results.csv", index=False)
     
 def best_model(
     df_results
 ):
-    df_results = pd.read_csv("../results/results.csv")
+    df_results = pd.read_csv("results/results.csv")
     datasets = df_results["Dataset"].unique()
     for dataset in datasets:
         df_dataset = df_results[df_results["Dataset"] == dataset].sort_values(by="Accuracy Validation", ascending=False)

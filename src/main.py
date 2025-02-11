@@ -45,5 +45,5 @@ if __name__ == "__main__":
     print("Results computed")
     
     # Best model
-    df_results = pd.read_csv("../results/results.csv")
+    df_results = pd.read_csv("results/results.csv")
     best_model(df_results)

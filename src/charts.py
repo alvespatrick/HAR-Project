@@ -43,10 +43,10 @@ def plot_time_series(
         acc_fig = px.line(title=f"Accelerometer Data - Activity: {label}")
         for i, signal in enumerate(acc_signal):
             acc_fig.add_scatter(y=signal, name=signals[i])
-        acc_fig.write_image(f"../figures/{dataset_name}_{idx}_acc.png")
+        acc_fig.write_image(f"figures/{dataset_name}_{idx}_acc.png")
         
         # Plot and save gyroscope data
         gyr_fig = px.line(title=f"Gyroscope Data - Activity: {label}")
         for i, signal in enumerate(gyr_signal):
             gyr_fig.add_scatter(y=signal, name=signals[i+3])
-        gyr_fig.write_image(f"../figures/{dataset_name}_{idx}_gyr.png")
+        gyr_fig.write_image(f"figures/{dataset_name}_{idx}_gyr.png")

@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_data(dataset_name, features):
-    data_path = f"../datasets/standardized_balanced/{dataset_name}/"
+    data_path = f"datasets/standardized_balanced/{dataset_name}/"
 
     # Load data
     train_data = pd.read_csv(data_path + "train.csv")
